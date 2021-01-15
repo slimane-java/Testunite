@@ -37,7 +37,7 @@ class Ex1
 
         if($this->a>$som3 || $this->b>$som2 || $this->c>$som1)
         {
-   throw new InvalidArgumentException("invalide");
+   //throw new InvalidArgumentException("invalide");
 
         }
 
