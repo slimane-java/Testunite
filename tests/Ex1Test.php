@@ -14,8 +14,7 @@ class Ex1Test extends TestCase
 
         $ex1=new Ex1(30,30,50);
         $this->assertEquals("Isocèele",$ex1->type());
-
-        $this->expectException(InvalidArgumentException::class);
+        //$this->expectException(InvalidArgumentException::class);
 
 
     }

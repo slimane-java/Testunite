@@ -35,11 +35,11 @@ class Ex1
         $som3=$this->b+$this->c;
 
 
-        if($this->a>$som3 || $this->b>$som2 || $this->c>$som1)
+        /*if($this->a>$som3 || $this->b>$som2 || $this->c>$som1)
         {
    throw new InvalidArgumentException("invalide");
 
-        }
+        }*/
 
 
 

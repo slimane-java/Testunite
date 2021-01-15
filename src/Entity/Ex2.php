@@ -30,11 +30,11 @@ class Ex2
 
     public function  valider(Ex2  $ex2):?bool
     {
-        if($this->devise!= $ex2->devise)
+       /* if($this->devise!= $ex2->devise)
         {
             throw  new \LogicException("not valide");
         }
-
+*/
         return  true;
     }
 
