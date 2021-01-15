@@ -16,7 +16,7 @@ class Ex2Test extends TestCase
 
         $d1->Ajouter($d2);
         $this->assertEquals($d3,$d1);
-        //$this->expectException("LogicException");
+        $this->expectException("LogicException");
 
 
     }
